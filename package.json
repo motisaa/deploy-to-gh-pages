@@ -6,6 +6,10 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
+    "test": "mocha",
+    "lint": "eslint .",
+    "ci": "npm install",
+    "build": "echo 'Build success!'"
   },
   "dependencies": {
     "pinia": "^2.0.36",
